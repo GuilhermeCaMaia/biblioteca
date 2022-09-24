@@ -38,4 +38,5 @@ public class Leitor {
     void cadastrarLeitor(){
 
     }
+
 }

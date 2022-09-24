@@ -24,6 +24,7 @@ public class Emprestimo {
         this.dataPrevistaDevolucao = getDataPrevistaDevolucao();
     }
 
+
     void devolverLivro(){
         this.dataDevolucao = getDataDevolucao();
     }

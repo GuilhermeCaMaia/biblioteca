@@ -35,5 +35,6 @@ public class GuiMenu {
         frame.pack();
 
         frame.setVisible(true);
+
     }
 }

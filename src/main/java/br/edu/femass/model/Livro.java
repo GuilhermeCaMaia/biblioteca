@@ -24,5 +24,4 @@ public class Livro {
         this.codigo = getCodigo();
     }
 
-
 }

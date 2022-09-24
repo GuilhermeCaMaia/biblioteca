@@ -33,4 +33,5 @@ public class Autor{
         System.out.println("Informe sua nacionalidade:");
         this.nacionalidade = getNacionalidade();
     }
+
 }

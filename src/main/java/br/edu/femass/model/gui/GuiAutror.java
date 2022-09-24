@@ -9,4 +9,5 @@ public class GuiAutror {
     private JLabel nomeDoAutorLabel;
     private JLabel Nacionalidade;
     private JButton proximoButton;
+
 }
