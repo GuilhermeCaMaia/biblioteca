@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59aaef2a-3632-438f-a5a4-c31117e06a15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/Emprestimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/Exemplar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/Leitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/gui/GuiAutror.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/gui/GuiAutror.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/gui/GuiMenu.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/gui/GuiMenu.java" afterDir="false" />
-    </list>
+    <list default="true" id="59aaef2a-3632-438f-a5a4-c31117e06a15" name="Changes" comment="criação" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,16 +29,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;405&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilherme/Desktop/ProjProf&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "405",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/guilherme/Desktop/ProjProf"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="GuiMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.edu.femass.model.gui.GuiMenu" />
@@ -88,7 +71,23 @@
       <workItem from="1664034506976" duration="1055000" />
       <workItem from="1664035598756" duration="2861000" />
       <workItem from="1664047403417" duration="168000" />
+      <workItem from="1664049016099" duration="365000" />
     </task>
+    <task id="LOCAL-00001" summary="criação">
+      <created>1664049073323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664049073323</updated>
+    </task>
+    <task id="LOCAL-00002" summary="criação">
+      <created>1664049351699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664049351699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="criação" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação" />
   </component>
 </project>
