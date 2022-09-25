@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59aaef2a-3632-438f-a5a4-c31117e06a15" name="Changes" comment="criação" />
+    <list default="true" id="59aaef2a-3632-438f-a5a4-c31117e06a15" name="Changes" comment="criação">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/dao/DaoAutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/dao/DaoLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/Exemplar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/femass/model/Exemplar.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +40,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "405",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/guilherme/Desktop/ProjProf"
+    "last_opened_file_path": "C:/Users/guilherme/Desktop/prog3_proj2_banco-main"
   }
 }]]></component>
   <component name="RunManager">
@@ -71,7 +77,8 @@
       <workItem from="1664034506976" duration="1055000" />
       <workItem from="1664035598756" duration="2861000" />
       <workItem from="1664047403417" duration="168000" />
-      <workItem from="1664049016099" duration="365000" />
+      <workItem from="1664049016099" duration="1129000" />
+      <workItem from="1664115720642" duration="4695000" />
     </task>
     <task id="LOCAL-00001" summary="criação">
       <created>1664049073323</created>
@@ -87,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664049351699</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="criação">
+      <created>1664049509078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664049509078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
