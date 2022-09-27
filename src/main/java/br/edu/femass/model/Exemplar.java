@@ -10,4 +10,12 @@ public class Exemplar {
         this.codigo = codigo;
         this.dataAquisicao = dataAquisicao;
     }
+
+    public Long getCodigo() {
+        return codigo;
+    }
+
+    public LocalDate getDataAquisicao() {
+        return dataAquisicao;
+    }
 }

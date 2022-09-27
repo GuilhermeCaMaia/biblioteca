@@ -23,5 +23,4 @@ public class Livro {
         System.out.println("Digite o codigo do livro:");
         this.codigo = getCodigo();
     }
-
 }

@@ -36,7 +36,14 @@ public class Leitor {
     }
 
     void cadastrarLeitor(){
-
+        System.out.println("informe o nome do leitor:");
+        this.getNome();
+        System.out.println("Informe o enderço:");
+        this.getEndereco();
+        System.out.println("Informe seu numero de telefone:");
+        this.getTelefone();
+        System.out.println("Seu prasomaximo é de:");
+        this.getPrazoMaximoDevolucao();
     }
 
 }

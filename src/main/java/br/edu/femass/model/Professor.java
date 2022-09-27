@@ -7,4 +7,5 @@ public class Professor extends Leitor{
         super(codigo, nome, endereco, telefone, prazoMaximoDevolucao);
         this.disciplina = disciplina;
     }
+
 }
