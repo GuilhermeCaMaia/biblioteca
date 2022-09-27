@@ -1,7 +1,5 @@
 package br.edu.femass.model;
 
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
-import sun.java2d.pipe.hw.ExtendedBufferCapabilities;
 
 public class Autor{
     String nome;

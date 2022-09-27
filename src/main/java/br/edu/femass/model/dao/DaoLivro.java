@@ -9,11 +9,11 @@ import java.util.List;
 
 public class DaoLivro {
 
-    private static List<Livro> livros = new ArrayList<>();
+    private static List<Livro> livros = new ArrayList<Livro>();
 
-    public void gravar(Livro livros) throws Exception {
+    public void gravar(Livro livro) throws Exception {
 
-        livros.add(livros);
+        livros.add(livro);
 
         ObjectMapper objectMapper = new ObjectMapper();
         String json = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(livros);

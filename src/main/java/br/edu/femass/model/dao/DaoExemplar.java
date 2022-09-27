@@ -1,9 +1,7 @@
 package br.edu.femass.model.dao;
 
 import br.edu.femass.model.Exemplar;
-import br.edu.femass.model.Livro;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import jdk.internal.org.objectweb.asm.TypeReference;
+import com.fasterxml.jackson.core.type.TypeReference;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,33 +9,33 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DaoExemplar {
+public class DaoExemplar extends Persistencia<Exemplar>{
 
-    private static List<Exemplar> exemplar = new ArrayList<>();
+    private static List<Exemplar> exemplares = new ArrayList<>();
 
     public void registrarData(Exemplar exemplar) throws Exception {
-        exemplar.add(Exemplar);
+        exemplares.add(exemplar);
 
-        ObjectMapper objectMapper = new ObjectMapper();
-        String json = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(exemplar);
+
+        String json = getObjectmapper().writerWithDefaultPrettyPrinter().writeValueAsString(exemplar);
 
         FileOutputStream out = new FileOutputStream("data.json");
         out.write(json.getBytes());
         out.close();
     }
 
-    public List<Livro> getLivros(){
+    public List<Exemplar> getLivros() throws Exception{
 
         //1o) Ler o arquivo
         FileInputStream in = new FileInputStream("Livros.json");
         String json = new String(in.readAllBytes());
 
         //2o) Converter o conteudo do arquivo em ojeto
-        ObjectMapper objectMapper = new ObjectMapper();
-        exemplar = objectMapper.readValue(json, new TypeReference<List<Livro>>);
+
+        List<Exemplar> exemplares = getObjectmapper().readValue(json, new TypeReference<List<Exemplar>>(){});
 
         //3o) Devolver a lista de objetos
-        return exemplar;
+        return exemplares;
 
     }
 
