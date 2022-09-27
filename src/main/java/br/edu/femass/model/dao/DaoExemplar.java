@@ -27,7 +27,7 @@ public class DaoExemplar extends Persistencia<Exemplar>{
     public List<Exemplar> getLivros() throws Exception{
 
         //1o) Ler o arquivo
-        FileInputStream in = new FileInputStream("Livros.json");
+        FileInputStream in = new FileInputStream("Exemplares.json");
         String json = new String(in.readAllBytes());
 
         //2o) Converter o conteudo do arquivo em ojeto
