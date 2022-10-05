@@ -4,7 +4,7 @@ public class Livro {
     Long codigo;
     String titulo;
 
-    public Livro(Long codigo, String titulo) {
+    public Livro(String titulo, Long codigo) {
         this.codigo = codigo;
         this.titulo = titulo;
     }

@@ -5,6 +5,10 @@ public class Autor{
     String nome;
     String sobreNome;
     String nacionalidade;
+
+    public Autor(){
+
+    }
     public Autor(String nome, String sobreNome, String nacionalidade) {
         this.nome = nome;
         this.sobreNome = sobreNome;
